@@ -4,13 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
-import PlaceOrder from './pages/Placeorder/PlaceOrder'
+import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
 import Cart from './pages/Cart/Cart'
 import Home from './pages/Home/Home'
 import ExploreMenu from './components/ExploreMenu/ExploreMenu'
 import Footer from './components/footer/Footer'
 import AppDownload from './components/appDownload/AppDownload'
-import FoodDisplay from './components/FoodDisplay/FoodDisplay'
+
 import LoginPopup from './components/loginPopup/LoginPopup'
 
 function App() {
