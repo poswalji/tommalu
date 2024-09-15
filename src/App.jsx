@@ -10,15 +10,27 @@ import Home from './pages/Home/Home'
 import ExploreMenu from './components/ExploreMenu/ExploreMenu'
 import Footer from './components/footer/Footer'
 import AppDownload from './components/appDownload/AppDownload'
+import FoodDisplay from './components/FoodDisplay/FoodDisplay'
+import LoginPopup from './components/loginPopup/LoginPopup'
 
 function App() {
-  const [count, setCount] = useState(0)
+     const [showPopup, setShowPopup] = useState(false); // State to toggle popup visibility
+
+   
+
 
   return (
     <>
+    {showPopup && <LoginPopup onClose={() => setShowPopup(false)} />} 
     <div className='app'>
-     <Navbar/>
+     <Navbar setShowPopup={setShowPopup}/>
      
+     <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/cart' element={<Cart/>}/>
+      <Route path='/order' element={<PlaceOrder/>}/>
+      
+     </Routes>
     
      <AppDownload/>
     </div>
