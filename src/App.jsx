@@ -19,11 +19,7 @@ function App() {
     <div className='app'>
      <Navbar/>
      
-     <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/cart' element={<Cart/>}/>
-      
-     </Routes>
+    
      <AppDownload/>
     </div>
     <Footer/>
