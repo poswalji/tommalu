@@ -4,7 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
+
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
+
+
+
 
 import Cart from './pages/Cart/Cart'
 import Home from './pages/Home/Home'
