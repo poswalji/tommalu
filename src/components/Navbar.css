@@ -5,8 +5,10 @@
 justify-content: space-between;
 
 }
-.navbar .logo{
-    width:150px;
+.navbar-logo{
+    font-size: 40px;
+    width: 150px;
+    color: #ff470d;
 }
 .navbar-menu{
     display: flex;

@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt=''/>
+          <h2 className='footer-logo'>Tommalu.</h2>
           <p> is is best delivery app you can order by order manu </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt=''/>
@@ -28,14 +28,14 @@ const Footer = () => {
             <ul>
               <li>+91 9358992352</li>
               <li>
-                malu.tomato@gmail.com
+                tommalu@gmail.com
               </li>
             </ul>
           </div>
       </div>
       <hr />
       <p className='footer-copyright '>
-        copyright 2024 © tomalu.com -All Right Reserved.
+        copyright 2024 © tommalu.com -All Right Reserved.
       </p>
     </div>
   )
